@@ -1,24 +1,25 @@
 # Commands to run in Linux environment  
 Assembly program to run 
-## install package 
+### Install package 
 ```
 sudo apt-get install nasm gcc
 ```
 
-## To run a program titled assembly.asm
+### To run a program titled assembly.asm
 ```
 nasm -f elf64 assembly.asm 
 ld -s -o assembly assembly.o 
 ./assembly 
 ```
 
-## all in one code 
+### All in one code 
 ```
 nasm -f elf64 assembly.asm && ld -s -o assembly assembly.o  && ./assembly 
 ```
 
-# Code explanation
+# Code Explanation
 
+## Assembling the Source Code
 ```
 nasm -f elf64 assembly.asm
 ```
