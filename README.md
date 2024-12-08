@@ -16,3 +16,4 @@ ld -s -o assembly assembly.o
 ```
 nasm -f elf64 assembly.asm && ld -s -o assembly assembly.o  && ./assembly 
 ```
+
